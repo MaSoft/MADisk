@@ -6,7 +6,7 @@ Diagnóstico de las microparadas de un disco SSD o NVMe: el equipo se queda cong
 
 [![Descargar](https://img.shields.io/github/v/release/MaSoft/MADisk?label=Descargar&style=for-the-badge)](https://github.com/MaSoft/MADisk/releases/latest)
 
-También puedes descargarlo desde [masoft.es](https://masoft.es/descargas.html).
+Más información y el manual también en [masoft.es](https://masoft.es/descargas.html#madisk).
 
 ![Diagnóstico](capturas/01-diagnostico.webp)
 
