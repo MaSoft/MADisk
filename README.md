@@ -31,7 +31,7 @@ Más información y el manual también en [masoft.es](https://masoft.es/descarga
 |---|---|
 | Sistema | Windows 10 o Windows 11 de 64 bits |
 | Permisos | Administrador local: Windows lo pide al abrir MADisk |
-| Instalación | No hace falta: un solo .exe que se copia y se abre. No necesita .NET |
+| Instalación | Instalador (pide permisos de administrador) o ejecutable único que se copia y se abre; no necesita .NET. |
 | Espacio | 63 MB el programa, y 512 MB libres si se hace la prueba de escritura |
 | Discos | NVMe, SATA, SAS y USB. La salud NVMe solo aparece en discos NVMe que la ofrecen |
 
@@ -39,13 +39,14 @@ MADisk no guarda datos propios: solo el informe PDF, donde tú elijas.
 
 ## Descarga y comprobación
 
-En [Releases](https://github.com/MaSoft/MADisk/releases/latest) están el programa (`MADisk_v1.0.0.exe`), su huella SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
+En [Releases](https://github.com/MaSoft/MADisk/releases/latest) están el instalador (`MADisk_Setup_v1.0.0.exe`), el ejecutable único (`MADisk_v1.0.0.exe`), sus huellas SHA-256 y el manual. Para comprobar que la descarga está completa, en PowerShell:
 
 ```powershell
+Get-FileHash .\MADisk_Setup_v1.0.0.exe
 Get-FileHash .\MADisk_v1.0.0.exe
 ```
 
-Debe coincidir con `34ce286c1ee7e93a722f00afb1c6a678ebfb50c40d673bf099a8e7d6326608c8`.
+Deben coincidir con `72586afa5c6fed82bdd29135dc028db905749a0f3d1470e4259acb3c41381347` (instalador) y `34ce286c1ee7e93a722f00afb1c6a678ebfb50c40d673bf099a8e7d6326608c8` (ejecutable único).
 
 ## Manual
 
